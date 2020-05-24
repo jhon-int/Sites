@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Index</title>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/modern-business.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="js/java.js"></script>
+    </head>
+    <body id="text1">
+        <nav class="navbar navbar-expand-md justify-content-center fixed-top" style="background-color: #262526;">
+            <a href="/" class="navbar-brand mr-0"></a> 
+            <button class="navbar-toggler ml-1 navbar-dark" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+                <ul class="nav navbar-nav mx-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aulas</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                            <a class="dropdown-item" href="semestre1.html">Semestre 1</a>
+                            <a class="dropdown-item">Semestre 2</a>
+                            <a class="dropdown-item">Semestre 3</a>
+                            <a class="dropdown-item">Semestre 4</a>
+                            <a class="dropdown-item">Semestre 5</a>
+                            <a class="dropdown-item">Semestre 6</a>
+                            <a class="dropdown-item">TCC</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="projetos.html"><span>Projetos</span></a> </li>
+                    <li class="nav-item"><a class="nav-link" href="curriculum.html"><span>Curriculo</span></a> </li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies3.html"><span>Hobbies</span></a> </li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html"><span>Sobre</span></a> </li>
+                </ul>
+            </div>
+        </nav>
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active" style="background-image: url('img/st1.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Jhonatan Dantas Lisbôa</h3>
+                            <p>Sistemas para Internet</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('img/fatec.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Fatec Jahu</h3>
+                            <a href="http://www.vestibularfatec.com.br/unidades-cursos/escola.asp?c=150">
+                                <p class="card-text text-white">link do site</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </header>
+        <br>
+        <div class="container">
+            <br><br>
+            <div class="card text-center">
+                <div class="card-body">
+                    <br> <a href="javascript:mudaTamanho('texto', -1);"><span id="btn" class="glyphicon glyphicon-zoom-out"></span></a> <a href="javascript:mudaTamanho('texto', 1);"><span id="btn1" class="glyphicon glyphicon-zoom-in"></span></a><a><span id="btn2" onclick="colorido()" class="glyphicon glyphicon-adjust"></span></a>
+                    <h1 class="card-title">Olá, bem-vindo ao meu site!!!</h1>
+                    <br>
+                    <p class="card-text text-justify" style="font-size: 17px;">Meu nome é Jhonatan Dantas Lisbôa, nasci no dia 8 de fevereiro de 1998 na cidade de Barra Bonita - SP. Sou técnico em manutenção de micro e redes e também de informatica, curso teminado em 2015. Fiz curso de Web Design em 2010, que é uma das áreas da quais eu mais me interesso. Comecei a graduação de Sistemas para Internet na Faculdade Fatec de Jahu em 2016. Trabalhei em uma loja de informática chamada Magic Star em 2015 e nela realizava manutação de micros, celulares, redes e atendimento ao cliente. Pretendo me tornar um Arquiteto e também gostaria de fazer intercâmbio.</p>
+                </div>
+            </div>
+            <br><br>
+            <hr>
+            <div class="row flex-grid featured-content">
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100 grid-item-wrapper">
+                        <div class="card">
+                            <video id="video" class="card-img-top" controls>
+                                <source src="midia/SMITE.mp4" type="video/mp4">
+                                Seu navegador não suportar o video. 
+                            </video>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Porque entrei na FATEC de Jahu?</h4>
+                            <p class="card-text">Video original substituido</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100 grid-item-wrapper">
+                        <div class="card">
+                            <a href="http://www.vestibularfatec.com.br/unidades-cursos/escola.asp?c=150"><img src="img/fatec3.jpg" id="imagem2" class="card-img-top grid-item-bg-img" alt="Image3"></a>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">FATEC-JAHU</h4>
+                            <p class="card-text">FATEC-JAHU é uma Instituição Pública de Ensino Superior que oferece cursos de graduação para formação de Tecnólogos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100 grid-item-wrapper">
+                        <div class="card">
+                            <iframe id="mapa" class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4389.411362561094!2d-48.54729212491282!3d-22.314316345944853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd5e1b9a29778bf8c!2sFaculdade+de+Tecnologia+de+Jahu!5e0!3m2!1spt-BR!2sbr!4v1477588890177" frameborder="0"  allowfullscreen="" title="mapa"></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Mapa Fatec - Jahu</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <br><br>
+        <footer class="py-5" style="background-color: #212021;">
+            <div class="container">
+                <p class="m-0 text-center text-white">
+                    <a href="https://www.facebook.com/jhonatan.dantaslisboa" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+                    <a href="https://www.linkedin.com/in/jhonatan-dantas-086660129/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
